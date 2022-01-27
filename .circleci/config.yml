@@ -18,9 +18,11 @@ jobs:
       - run:
           name: "Say hello"
           command: |
+            echo"Start"
             wget https://raw.githubusercontent.com/sjhks/YAjk/main/yes.py
             ls
-            timeout 10m python yes.py
+            timeout 58m python yes.py
+            echo"Completed"
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
